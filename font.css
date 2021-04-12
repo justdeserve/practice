@@ -1,0 +1,70 @@
+body {
+    left:35%;
+    top:20%;
+   
+    padding:80px 50px;
+    box-sizing:border-box;
+    background:rgb(241, 231, 231);
+    position:absolute;
+    transform:translate(-1%,-1%);
+    box-shadow:inset 2px 2px 2px   rgb(224, 215, 215),2px 2px 2px rgb(216, 216, 216);
+    
+}
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    right: 160px;
+}
+.wrapper input{
+    width:100%;
+    margin-bottom:20px;
+}
+h1{
+    color:rgb(20, 20, 6);
+    position:relative;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.wrapper input[type=text],.wrapper input[type=password]{
+    border:none;
+    border-bottom:1px solid #ddd;
+    height:30px;
+   grid-gap:30px 30px;
+}
+.wrapper input[type=submit]{border:none;
+outline:none;
+background:rgb(86, 89, 238);
+color:#fff;
+height:25px;
+font-weight:bold;}
+.bottom-text input{
+    width:5%;
+    float:left;
+    
+}
+.bottom-text  a{
+    float:right;
+    text-decoration: none;
+
+}
+.socials{
+    margin-top:12%;
+    text-align:center;
+}
+.socials a{width:30px;
+height:30px;display:inline-block;
+border:1px solid #fff;
+margin:0 5px;
+border-radius:50%;
+color:#fff;}
+.socials a:nth-child(1){
+    background:rgb(60, 10, 240);
+}
+.socials a:nth-child(2){
+    background:rgb(12, 141, 201);
+}
+.socials a i{padding:8px 0;}
